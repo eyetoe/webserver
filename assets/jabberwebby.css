@@ -1,0 +1,81 @@
+/* Added by file caller */
+    body {
+        font-family: 'Gentium Basic', Metamorphous, Helvetica, Arial, sans-serif;
+        font-size: 18;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 150px;
+        margin-left: 150px;
+        color: #FFFFFF;
+        background-image: url('http://xonk.org:8420/pic7.png');
+    }
+    table {
+        background-color: #2C2C2C;
+        font-size: 18;
+        color: #FFFFFF;
+        opacity: 0.9;
+        border-spacing: 50px;
+        border-collapse: collapse;
+        padding: 50px;
+        width: 465px;
+    }
+
+    th {
+        /*border-spacing: 0;*/
+        padding: 8px;
+        border-collapse: collapse;
+        vertical-align: bottom;
+    }
+
+    td {
+        padding: 8px;
+        border-collapse: collapse;
+        vertical-align: bottom;
+    }
+
+    p {
+        font-family: 'Gentium Basic', Helvetica, Arial, sans-serif;
+        padding: 0px;
+        color: #FFFFFF;
+    }
+
+    h1 {
+        font-family: Metamorphous, Helvetica, Arial, sans-serif;
+        font-size: 47;
+        color: #FFFFFF;
+        text-align: right;
+        vertical-align: bottom;
+        position: relative;
+        bottom: 0;
+    }
+
+    div {
+        font-family: Metamorphous, Helvetica, Arial, sans-serif;
+        font-size: 47;
+        color: #FFFFFF;
+        text-align: right;
+        vertical-align: bottom;
+        position: relative;
+        bottom: 0;
+    }
+
+    h2 {
+        font-family: 'Gentium Basic', Helvetica, Arial, sans-serif;
+        font-size: 18;
+        color: #FFFFFF;
+        text-align: left;
+        vertical-align: bottom;
+    }
+
+    hr {
+        border-style: none;
+        border-top: 2px solid #FFFFFF;
+    }
+
+    /* Gradient color1 - color2 - color1 */
+    hr.style-one {
+        border: 0;
+        height: 1px;
+        background: #FFFFFF;
+        background-image: linear-gradient(to right, #000000, #FFFFFF, #000000);
+    }
